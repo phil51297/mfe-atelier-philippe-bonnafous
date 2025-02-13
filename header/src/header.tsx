@@ -1,3 +1,9 @@
-const Header = () => <header><h1>Header of Micro Frontend</h1></header>;
+const Header = () => {
+  return (
+    <header>
+      <h2>Header Component</h2>
+    </header>
+  );
+};
 
 export default Header;
